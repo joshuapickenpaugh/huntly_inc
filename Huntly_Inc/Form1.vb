@@ -28,6 +28,7 @@
         dblGrossProfitRatio = dblGrossProfit / dblNetSales
 
         'Displays Gross Profit Ratio:
+        lblGrossProfitRatio.Text = dblGrossProfitRatio.ToString("P0")
 
     End Sub
 End Class

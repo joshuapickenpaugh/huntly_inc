@@ -29,7 +29,7 @@ Partial Class frmMain
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtCostOfGoodsSold = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.lblGrossProfitRatio = New System.Windows.Forms.Label()
         Me.btnCalc = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -91,15 +91,15 @@ Partial Class frmMain
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Gross Profit Ratio:"
         '
-        'Label5
+        'lblGrossProfitRatio
         '
-        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label5.Location = New System.Drawing.Point(161, 121)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(100, 23)
-        Me.Label5.TabIndex = 7
-        Me.Label5.Text = " "
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblGrossProfitRatio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblGrossProfitRatio.Location = New System.Drawing.Point(161, 121)
+        Me.lblGrossProfitRatio.Name = "lblGrossProfitRatio"
+        Me.lblGrossProfitRatio.Size = New System.Drawing.Size(100, 23)
+        Me.lblGrossProfitRatio.TabIndex = 7
+        Me.lblGrossProfitRatio.Text = " "
+        Me.lblGrossProfitRatio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnCalc
         '
@@ -126,7 +126,7 @@ Partial Class frmMain
         Me.ClientSize = New System.Drawing.Size(415, 305)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnCalc)
-        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.lblGrossProfitRatio)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtCostOfGoodsSold)
         Me.Controls.Add(Me.Label3)
@@ -149,7 +149,7 @@ Partial Class frmMain
     Friend WithEvents Label3 As Label
     Friend WithEvents txtCostOfGoodsSold As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents lblGrossProfitRatio As Label
     Friend WithEvents btnCalc As Button
     Friend WithEvents btnExit As Button
 End Class
